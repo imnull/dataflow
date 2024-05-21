@@ -1,0 +1,23 @@
+{
+  "name": "@imnull/dataflow",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "imnull@outlook.com",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/imnull/dataflow.git"
+  },
+  "bugs": {
+    "url": "https://github.com/imnull/dataflow/issues"
+  },
+  "homepage": "https://github.com/imnull/dataflow#readme",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
