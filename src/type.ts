@@ -28,3 +28,16 @@ type TPromiseMap<T extends { [key: string]: (...args: unknown[]) => Promise<unkn
 
 // })
 
+const map = {
+    a: { a: 1 },
+    b: { b: 2 },
+    c: false,
+}
+
+type TK = keyof typeof map
+
+type TMapCallback = <K extends TK = TK>(key: K, value: (typeof map)[K]) => void
+
+let callback: TMapCallback
+
+// callback!('c', false)
